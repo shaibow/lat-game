@@ -10,10 +10,10 @@ class Testimonial extends Component{
                             <TabPanel>
                                 <div className="rn-testimonial-content text-center">
                                     <div className="inner">
-                                        <p>Aklima The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</p>
+                                        <p>Publishing labels are a lot. We all know it. But when it comes to find a right match... You should have experiences in that. Lat Game helped us during this night mare process.</p>
                                     </div>
                                     <div className="author-info">
-                                        <h6><span>Aklima </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
+                                        <h6><span>Sam</span> - Team Lead, Tommy dog studio.</h6>
                                     </div>
                                 </div>
                             </TabPanel>
@@ -21,73 +21,10 @@ class Testimonial extends Component{
                             <TabPanel>
                                 <div className="rn-testimonial-content text-center">
                                     <div className="inner">
-                                        <p>Fatima Asrafy standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</p>
+                                        <p>Finding a proper game publisher and moving forward with them is a time consuming process. Lot's of effort is going to waste during this process. We are game developers not marketing experts, And Lat Game did a great job for us finding an excellent publisher for our game.</p>
                                     </div>
                                     <div className="author-info">
-                                        <h6><span>Fatima Asrafy </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
-                                    </div>
-                                </div>
-                            </TabPanel>
-                            <TabPanel>
-                                <div className="rn-testimonial-content text-center">
-                                    <div className="inner">
-                                        <p>Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</p>
-                                    </div>
-                                    <div className="author-info">
-                                        <h6><span>Jannat Tumpa </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
-                                    </div>
-                                </div>
-                            </TabPanel>
-
-                            <TabPanel>
-                                <div className="rn-testimonial-content text-center">
-                                    <div className="inner">
-                                        <p>Standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</p>
-                                    </div>
-                                    <div className="author-info">
-                                        <h6><span>Johns Due </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
-                                    </div>
-                                </div>
-                            </TabPanel>
-                            <TabPanel>
-                                <div className="rn-testimonial-content text-center">
-                                    <div className="inner">
-                                        <p>John Doe The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</p>
-                                    </div>
-                                    <div className="author-info">
-                                        <h6><span>John Doe </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
-                                    </div>
-                                </div>
-                            </TabPanel>
-
-                            <TabPanel>
-                                <div className="rn-testimonial-content text-center">
-                                    <div className="inner">
-                                        <p>Chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</p>
-                                    </div>
-                                    <div className="author-info">
-                                        <h6><span>Amar Orthi </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
-                                    </div>
-                                </div>
-                            </TabPanel>
-                            <TabPanel>
-                                <div className="rn-testimonial-content text-center">
-                                    <div className="inner">
-                                        <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</p>
-                                    </div>
-                                    <div className="author-info">
-                                        <h6><span>Fatima Ma </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
-                                    </div>
-                                </div>
-                            </TabPanel>
-
-                            <TabPanel>
-                                <div className="rn-testimonial-content text-center">
-                                    <div className="inner">
-                                        <p>Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</p>
-                                    </div>
-                                    <div className="author-info">
-                                        <h6><span>JON CUMMINS </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
+                                        <h6><span>Saeed </span> - Game Developer.</h6>
                                     </div>
                                 </div>
                             </TabPanel>
@@ -104,48 +41,6 @@ class Testimonial extends Component{
                                     <div className="testimonial-thumbnai">
                                         <div className="thumb">
                                             <img src="/assets/images/client/testimonial-2.jpg" alt="Testimonial Images"/>
-                                        </div>
-                                    </div>
-                                </Tab>
-                                <Tab>
-                                    <div className="testimonial-thumbnai">
-                                        <div className="thumb">
-                                            <img src="/assets/images/client/testimonial-3.jpg" alt="Testimonial Images"/>
-                                        </div>
-                                    </div>
-                                </Tab>
-                                <Tab>
-                                    <div className="testimonial-thumbnai">
-                                        <div className="thumb">
-                                            <img src="/assets/images/client/testimonial-4.jpg" alt="Testimonial Images"/>
-                                        </div>
-                                    </div>
-                                </Tab>
-                                <Tab>
-                                    <div className="testimonial-thumbnai">
-                                        <div className="thumb">
-                                            <img src="/assets/images/client/testimonial-5.jpg" alt="Testimonial Images"/>
-                                        </div>
-                                    </div>
-                                </Tab>
-                                <Tab>
-                                    <div className="testimonial-thumbnai">
-                                        <div className="thumb">
-                                            <img src="/assets/images/client/testimonial-6.jpg" alt="Testimonial Images"/>
-                                        </div>
-                                    </div>
-                                </Tab>
-                                <Tab>
-                                    <div className="testimonial-thumbnai">
-                                        <div className="thumb">
-                                            <img src="/assets/images/client/testimonial-7.jpg" alt="Testimonial Images"/>
-                                        </div>
-                                    </div>
-                                </Tab>
-                                <Tab>
-                                    <div className="testimonial-thumbnai">
-                                        <div className="thumb">
-                                            <img src="/assets/images/client/testimonial-8.jpg" alt="Testimonial Images"/>
                                         </div>
                                     </div>
                                 </Tab>

@@ -6,8 +6,8 @@ class PageHelmet extends Component{
         return(
             <React.Fragment>
                 <Helmet>
-                    <title>{this.props.pageTitle} || React Multipurpose Template </title>
-                    <meta name="description" content="Trydo – Multipurpose React Template is a multi-use React template. It is designed to go well with multi-purpose websites. Trydo React Template will create that various landing Template, Creative Agency, And Corporate Website ." />
+                    <title>{this.props.pageTitle} || Connecting Game Developers with Publisher </title>
+                    <meta name="description" content="LAT GAME - We are a platform matching game developers with game publisher. We help teams to align their game with publishers criteria and them connect them." />
                 </Helmet>
             </React.Fragment>
         )

@@ -4,34 +4,19 @@ import { FiCast , FiLayers , FiUsers , FiMonitor } from "react-icons/fi";
 const ServiceList = [
     {
         icon: <FiCast />,
-        title: 'Business Stratagy',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        title: 'Finding proper publisher',
+        description: 'We have a vast network of international game publishers. Regarding your game we investigate through our network and offer you a list of proper game publishers..'
     },
     {
         icon: <FiLayers />,
-        title: 'Website Development',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        title: 'Pre Publish Consultant',
+        description: 'You don\'t have a second chance for first impression. So before contacting your selected publisher we help you to polish your game in order to fit the publisher criteria.'
     },
     {
         icon: <FiUsers />,
-        title: 'Marketing & Reporting',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        title: 'Market research',
+        description: 'We are experienced in game market, so we offer you a market research service in order to help you to define your next game focus.'
     },
-    { 
-        icon: <FiMonitor />,
-        title: 'Mobile App Development',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
-    },
-    {
-        icon: <FiUsers />,
-        title: 'Marketing & Reporting',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
-    },
-    { 
-        icon: <FiMonitor />,
-        title: 'Mobile App Development',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
-    }
 ]
 
 
@@ -39,7 +24,7 @@ class ServiceThree extends Component{
     render(){
         const {column } = this.props;
         const ServiceContent = ServiceList.slice(0 , this.props.item);
-        
+
         return(
             <React.Fragment>
                 <div className="row">

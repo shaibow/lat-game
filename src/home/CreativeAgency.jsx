@@ -10,20 +10,21 @@ import Testimonial from "../elements/Testimonial";
 import Team from "../elements/Team";
 import BlogContent from "../elements/blog/BlogContent";
 import BrandTwo from "../elements/BrandTwo";
-import FooterTwo from "../component/footer/FooterTwo";
+import Footer from "../component/footer/FooterTwo";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Helmet from "../component/common/Helmet";
 
 const image1 =
-  "/assets/images/bg/paralax/bg-image-3-overlay.jpg";
+    "/assets/images/bg/paralax/bg-image-3-overlay.jpg";
 
-  const SlideList = [
+
+const SlideList = [
     {
         textPosition: 'text-center',
         category: '',
-        title: 'Creative ',
-        description: 'There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration.',
+        title: 'Lat Game ',
+        description: 'The missing platform to help game developers to find a proper partner for commercialise their game. We have a vast network of game publishers, developers, and designers. Are you ready to publish your stunning game?',
         buttonText: 'Contact Us',
         buttonLink: '/contact'
     }
@@ -32,34 +33,20 @@ const image1 =
 const list = [
     {
         image: 'image-1',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        category: 'Entertainment',
+        title: 'Shoot on Sight'
     },
     {
         image: 'image-2',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        category: 'Game',
+        title: 'Gray Days'
     },
     {
         image: 'image-3',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        category: 'Game',
+        title: 'Olympica'
     },
-    {
-        image: 'image-4',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: 'image-3',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: 'image-4',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
-    }
+
 ]
 
 class CreativeAgency extends Component{
@@ -67,11 +54,11 @@ class CreativeAgency extends Component{
         const PostList = BlogContent.slice(0 , 5);
         return(
             <Fragment>
-                <Helmet pageTitle="Creative Agency" />
+                <Helmet pageTitle="LAT GAME" />
                 <Header logo="light" />
                 {/* Start Slider Area   */}
                 <div className="slider-activation slider-creative-agency">
-                    <Parallax bgImage={image1} strength={1000}>
+                    <Parallax bgImage={image1} strength={150}>
                         {SlideList.map((value , index) => (
                             <div className="slide slide-style-2 slider-paralax d-flex align-items-center justify-content-center" key={index}>
                                 <div className="container">
@@ -102,8 +89,8 @@ class CreativeAgency extends Component{
                             </div>
                         </div>
                     </div>
-                </div>  
-                {/* End Service Area  */} 
+                </div>
+                {/* End Service Area  */}
 
                 {/* Start Portfolio Area */}
                 <div className="portfolio-area pt--120 pb--140 bg_color--5">
@@ -113,7 +100,7 @@ class CreativeAgency extends Component{
                                 <div className="col-lg-6">
                                     <div className="section-title service-style--3 text-left mb--15 mb_sm--0">
                                         <h2 className="title">Our Portfolio</h2>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                        <p>We are working with indie game developers and entertainment companies helping them to protect their content online. </p>
                                     </div>
                                 </div>
                             </div>
@@ -131,9 +118,9 @@ class CreativeAgency extends Component{
                                                         <div className="inner">
                                                             <p>{value.category}</p>
                                                             <h4><a href="/portfolio-details">{value.title}</a></h4>
-                                                            <div className="portfolio-button">
-                                                                <a className="rn-btn" href="/portfolio-details">Case Study</a>
-                                                            </div>
+                                                            {/*<div className="portfolio-button">*/}
+                                                            {/*    <a className="rn-btn" href="/portfolio-details">Case Study</a>*/}
+                                                            {/*</div>*/}
                                                         </div>
                                                     </div>
                                                 </div>
@@ -155,7 +142,7 @@ class CreativeAgency extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title text-center">
-                                    <h3 className="fontWeight500">Our Fun Facts</h3>
+                                    <h3 className="fontWeight500">About our experiences</h3>
                                 </div>
                             </div>
                         </div>
@@ -170,8 +157,8 @@ class CreativeAgency extends Component{
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="section-title service-style--3 text-left mb--25 mb_sm--0">
-                                    <h2 className="title">Skilled Team</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                    <h2 className="title">Our Skilled Team</h2>
+                                    <p>Our main team are beside you to protect your rights online, so you can focus on creating great content.</p>
                                 </div>
                             </div>
                         </div>
@@ -183,67 +170,68 @@ class CreativeAgency extends Component{
                 {/* End Team Area  */}
 
                 {/* Start Testimonial Area */}
-                <div className="rn-testimonial-area bg_color--1 ptb--120">
+                <div className="rn-testimonial-area bg_color--5 ptb--120">
                     <div className="container">
                         <Testimonial />
                     </div>
                 </div>
                 {/* End Testimonial Area */}
-                
+
 
                 {/* Start Blog Area */}
-                <div className="rn-blog-area pt--120 pb--140 bg_color--5">
-                    <div className="container">
-                        <div className="row align-items-end">
-                            <div className="col-lg-6">
-                                <div className="section-title text-left">
-                                    <h2>Latest News</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row mt--55 mt_sm--30 rn-slick-dot slick-space-gutter--15 slickdot--20 row--0">
-                            <div className="col-lg-12">
-                                <Slider {...slickDot}>
-                                    {PostList.map((value , i ) => (
-                                        <div className="blog blog-style--1" key={i}>
-                                            <div className="thumbnail">
-                                                <a href="/blog-details">
-                                                    <img src={`/assets/images/blog/blog-${value.images}.jpg`} alt="Blog Images"/>
-                                                </a>
-                                            </div>
-                                            <div className="content">
-                                                <p className="blogtype">{value.category}</p>
-                                                <h4 className="title"><a href="/blog-details">{value.title}</a></h4>
-                                                <div className="blog-btn">
-                                                    <a className="rn-btn text-white" href="/blog-details">Read More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    ))}
-                                </Slider>
-                            </div>
-                        </div>    
-                    </div>    
-                </div>
+                {/*<div className="rn-blog-area pt--120 pb--140 bg_color--5">*/}
+                {/*    <div className="container">*/}
+                {/*        <div className="row align-items-end">*/}
+                {/*            <div className="col-lg-6">*/}
+                {/*                <div className="section-title text-left">*/}
+                {/*                    <h2>Latest News</h2>*/}
+                {/*                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>*/}
+                {/*                </div>*/}
+                {/*            </div>*/}
+                {/*        </div>*/}
+                {/*        <div className="row mt--55 mt_sm--30 rn-slick-dot slick-space-gutter--15 slickdot--20 row--0">*/}
+                {/*            <div className="col-lg-12">*/}
+                {/*                <Slider {...slickDot}>*/}
+                {/*                    {PostList.map((value , i ) => (*/}
+                {/*                        <div className="blog blog-style--1" key={i}>*/}
+                {/*                            <div className="thumbnail">*/}
+                {/*                                <a href="/blog-details">*/}
+                {/*                                    <img src={`/assets/images/blog/blog-${value.images}.jpg`} alt="Blog Images"/>*/}
+                {/*                                </a>*/}
+                {/*                            </div>*/}
+                {/*                            <div className="content">*/}
+                {/*                                <p className="blogtype">{value.category}</p>*/}
+                {/*                                <h4 className="title"><a href="/blog-details">{value.title}</a></h4>*/}
+                {/*                                <div className="blog-btn">*/}
+                {/*                                    <a className="rn-btn text-white" href="/blog-details">Read More</a>*/}
+                {/*                                </div>*/}
+                {/*                            </div>*/}
+                {/*                        </div>*/}
+                {/*                    ))}*/}
+                {/*                </Slider>*/}
+                {/*            </div>*/}
+                {/*        </div>    */}
+                {/*    </div>    */}
+                {/*</div>*/}
                 {/* End Blog Area */}
 
 
                 {/* Start Brand Area */}
-                <div className="rn-brand-area brand-separation bg_color--5 ptb--120">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <BrandTwo />
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                {/*<div className="rn-brand-area brand-separation bg_color--5 ptb--120">*/}
+                {/*    <div className="container">*/}
+                {/*        <div className="row">*/}
+                {/*            <div className="col-lg-12">*/}
+                {/*                <BrandTwo />*/}
+                {/*            </div>*/}
+                {/*        </div>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
                 {/* End Brand Area */}
 
-                 {/* Start Footer Style  */}
-                 <FooterTwo />
+                {/* Start Footer Style  */}
+                <Footer />
                 {/* End Footer Style  */}
+
                 {/* Start Back To Top */}
                 <div className="backto-top">
                     <ScrollToTop showUnder={160}>

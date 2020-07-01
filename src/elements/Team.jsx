@@ -4,110 +4,34 @@ import { FaFacebookF , FaLinkedinIn , FaTwitter } from "react-icons/fa";
 let TeamContent = [
     {
         images: '01',
-        title: 'Jone Due',
-        designation: 'Sr. Web Developer',
+        title: 'Sabine Juksa',
+        designation: 'Founder',
         socialNetwork: [
             {
                 icon: <FaFacebookF />,
-                url: '#'
+                url: 'https://www.facebook.com/sabine.juksa'
             },
             {
                 icon: <FaLinkedinIn />,
-                url: '#'
-            },
-            {
-                icon: <FaTwitter />,
-                url: '#'
+                url: 'https://www.linkedin.com/in/sabine-juksa-0b6056160/'
             },
         ]
     },
     {
         images: '02',
-        title: 'Fatima Asrafi',
-        designation: 'Front-end Engineer',
+        title: 'Pooya Khoshbakht',
+        designation: 'Marketing manager',
         socialNetwork: [
             {
                 icon: <FaFacebookF />,
-                url: '#'
+                url: 'https://www.facebook.com/profile.php?id=1377047413'
             },
             {
                 icon: <FaLinkedinIn />,
-                url: '#'
+                url: 'https://www.linkedin.com/in/pooyakhoshbakht/'
             },
         ]
     },
-    {
-        images: '03',
-        title: 'Al-Amin Bali',
-        designation: 'Sr. Graphic Designer',
-        socialNetwork: [
-            {
-                icon: <FaFacebookF />,
-                url: '#'
-            },
-            {
-                icon: <FaLinkedinIn />,
-                url: '#'
-            },
-            {
-                icon: <FaTwitter />,
-                url: '#'
-            },
-        ]
-    },
-    {
-        images: '06',
-        title: 'Jone Due',
-        designation: 'Sr. Web Developer',
-        socialNetwork: [
-            {
-                icon: <FaFacebookF />,
-                url: '#'
-            },
-            {
-                icon: <FaLinkedinIn />,
-                url: '#'
-            },
-            {
-                icon: <FaTwitter />,
-                url: '#'
-            },
-        ]
-    },
-    {
-        images: '05',
-        title: 'Fatima Asrafi',
-        designation: 'Front-end Engineer',
-        socialNetwork: [
-            {
-                icon: <FaFacebookF />,
-                url: '#'
-            },
-            {
-                icon: <FaLinkedinIn />,
-                url: '#'
-            },
-        ]
-    },
-    {
-        images: '12',
-        title: 'Al-Amin Bali',
-        designation: 'Sr. Graphic Designer',
-        socialNetwork: [
-            {
-                icon: <FaFacebookF />,
-                url: '#'
-            },
-            {
-                icon: <FaLinkedinIn />,
-                url: '#'
-            },
-            {
-                icon: <FaTwitter />,
-                url: '#'
-            },
-        ]
-    }
 ];
 
 
