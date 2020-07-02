@@ -117,7 +117,7 @@ class CreativeAgency extends Component{
                                                     <div className="content">
                                                         <div className="inner">
                                                             <p>{value.category}</p>
-                                                            <h4><a href="/portfolio-details">{value.title}</a></h4>
+                                                            <h4>{value.title}</h4>
                                                             {/*<div className="portfolio-button">*/}
                                                             {/*    <a className="rn-btn" href="/portfolio-details">Case Study</a>*/}
                                                             {/*</div>*/}
